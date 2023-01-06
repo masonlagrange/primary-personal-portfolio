@@ -17,4 +17,4 @@ This page is a window into my professional development, the functionality will a
 
 
 ## Screenshot of Portfolio
-
+![portfolio-screenshot](https://user-images.githubusercontent.com/119389197/210922807-471125e6-b15f-4bd8-9c48-baaf54ba4d62.png)
