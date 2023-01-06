@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Mason Lagrange</title>
+    <title>Mason Lagrange Personal Portfolio</title>
 </head>
 
 <body>
@@ -13,56 +13,59 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">About Me</a>
+                    <a href="#aboutMe">About Me</a>
                 </li>
                 <li>
-                    <a href="">My Projects</a>
+                    <a href="#projects">My Projects</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <div class="aboutMe">
-        <h2>About Me</h2>
+    <aside class="sidebar">
+        <h2 id="aboutText">About Me</h2>
+        <h2 id="projectText">My Projects</h2>
+        <h2 id="contactText">Contact</h2>
+    </aside>
+    <div id="aboutMe" class="aboutMe">
         <div style="display:inline-block;vertical-align:top;">
             <img src="./Assets/images/avatar-g05aba3a26_1280.png" alt="placeholder avatar">
         </div>
         <div style="display:inline-block;">
             <p>
-                Placeholdertext Placeholdertext Placeholdertext Placeholdertext PlaceholdertextPlaceholdertext Placeholdertext Placeholdertext Placeholdertext
+                I am a graduate of a bachelors degree in science, but I'm looking for a career switch. To facilitate this I am learning web development!
             </p>
         </div>
     </div>
-    <section class="projects">
-        <h2>My Projects</h2>
+    <section id="projects" class="projects">
         <div class="project1">
-            <img src="./Assets/images/horiseon-homepage.png" alt="Horiseon accessible homepage" class="project1Image">
-            <p>This is a placeholder description</p>
+            <a  href="https://masonlagrange.github.io/horiseon-accessible-homepage/"><img src="./Assets/images/horiseon-accessible-homepage.png" alt="Horiseon accessible homepage" id="project1Image" class="projectImages"></a>
+            <h3>Accessible Homepage</h3>
         </div>
+        <div class="smallImages">
         <div class="project2">
-            <img src="" alt="project 2 placeholder image" class="project2Image">
-            <p>This is a placeholder description</p>
+            <img src="./Assets/images/shopping placeholderl.jpg" alt="e-commerce placeholder image" id="project2Image"  class="projectImages">
+            <h3>E-commerce</h3>
         </div>
         <div class="project3">
-            <img src="" alt="project 3 placeholder image" class="project3Image">
-            <p>This is a placeholder description</p>
+            <img src="./Assets/images/Calendar-1000x605.jpg" alt="calendar placeholder image" id="project3Image" class="projectImages">
+            <h3>Calendar</h3>
+        </div>
         </div>
     </section>
-    <section class="contact">
-        <h2>Contact</h2>
+    <section id="contact" class="contact">
         <div class="email">
-            <img src="" alt="email symbol" class="emailImage">
+            <img src="./Assets/images/email.icon.png" alt="email symbol" class="emailImage">
             <a href="mailto: mason.lagrange@gmail.com">mason.lagrange@gmail.com</a>
         </div>
         <div class="github">
-            <img src="" alt="github logo" class="githubImage">
+            <img src="./Assets/images/githublogo.png" alt="github logo" class="githubImage">
             <a href="https://github.com/masonlagrange">GitHub</a>
         </div>
     </section>
     <footer>
     </footer>
 </body>
-
 </html>

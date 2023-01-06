@@ -46,16 +46,27 @@ p {
     font-size: 16px;
 }
 
-.aboutMe h2 {
+.sidebar {
     float: left;
-    margin: 2% 1% 0 10%;
+    padding: 0 0 0 200px;
+    margin: 0 20px 0 0;
+    border-style: hidden double hidden hidden;
+    border-width: 10px;
+}
+
+.sidebar h2 {
+    font-weight: 20px;
+    display: flex;
+    justify-content: right;
+    padding: 0 20px 0 0;
 }
 
 .aboutMe img {
     max-height: 264px; 
-    padding: 0 0 0 10%;
-    border-style: hidden hidden hidden double;
-    border-width: 10px;
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1212aa;
 }
 
 .aboutMe p {
@@ -64,3 +75,82 @@ p {
     float: right;
 }
 
+#projectText {
+    padding-top: 294px;
+}
+
+#project1Image {
+    max-height: 500px;
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1212aa;
+    margin-top: 50px;
+}
+
+.project1 h3 {
+    display: inline-block;
+    vertical-align: 224px;
+    background-color: #ddd;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: #000;
+    padding: 10px;
+    color: #1212aa;
+}
+
+.smallImages {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.smallImages h3{
+    background-color: #ddd;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    color: #1212aa;
+    padding: 10px;
+    text-align: center;
+    border-color: #000;
+}
+
+.project2 h3 {
+    margin-right: 20px;
+}
+
+#project2Image {
+    max-height: 200px;
+    margin-right: 20px;
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1212aa;
+}
+
+#project3Image {
+    max-height: 200px;
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1212aa;
+}
+
+#contactText {
+    padding: 770px 20px 200px 0;
+}
+
+.contact a {
+    display: inline-block;
+    font-weight: 10px;
+    vertical-align: 20px;
+}
+
+.emailImage {
+    max-height: 50px;
+}
+
+.githubImage {
+    max-height: 50px;
+}
